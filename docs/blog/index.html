@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cómo desarrollar tu pensamiento crítico en la era de la IA · SalgadoIA</title>
+<meta name="description" content="El pensamiento crítico es una habilidad entrenable. Guía práctica: los 5 gestos mentales, un kit de preguntas de bolsillo y la skill gratuita de Claude que hace de entrenador.">
+<link rel="canonical" href="https://luispitik.github.io/salgadoia-pensamiento-critico/blog/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cómo desarrollar tu pensamiento crítico en la era de la IA">
+<meta property="og:description" content="Los 5 gestos, el kit de preguntas y un entrenador gratis. Por Luis Salgado, psicólogo y consultor de IA.">
+<meta property="og:url" content="https://luispitik.github.io/salgadoia-pensamiento-critico/blog/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0A0F0E; --surface:#101615; --surface2:#151D1B;
+  --line:rgba(0,201,184,.14); --line-soft:rgba(233,241,239,.08);
+  --ink:#E9F1EF; --dim:#8CA19D; --teal:#00C9B8;
+  --max:760px; --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Hanken Grotesk',sans-serif;font-size:17.5px;line-height:1.72;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+a{color:var(--teal);text-decoration:none}
+::selection{background:var(--teal);color:#04211E}
+nav{position:sticky;top:0;z-index:50;background:rgba(10,15,14,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line-soft)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;max-width:1080px}
+.brand{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.02rem}
+.brand b{color:var(--teal)}
+.navlinks{display:flex;gap:20px;font-size:.85rem}
+.navlinks a{color:var(--dim)} .navlinks a:hover{color:var(--teal)}
+header.post{padding:70px 0 44px;border-bottom:1px solid var(--line-soft)}
+.eyebrow{font-family:'JetBrains Mono';font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal)}
+h1{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12;margin:14px 0 14px}
+.standfirst{color:var(--dim);font-size:1.06rem;max-width:62ch}
+.byline{margin-top:22px;font-size:.88rem;color:var(--dim)}
+.byline b{color:var(--ink);font-weight:600}
+article{padding:46px 0 30px}
+article h2{font-family:'Bricolage Grotesque';font-weight:700;font-size:clamp(1.35rem,3vw,1.75rem);line-height:1.2;margin:44px 0 14px}
+article h3{font-family:'Bricolage Grotesque';font-weight:700;font-size:1.12rem;margin:30px 0 10px;color:var(--teal)}
+article p{margin-bottom:16px}
+article p b,article li b{font-weight:600;color:#fff}
+article blockquote{border-left:2px solid var(--teal);padding:12px 0 12px 22px;margin:24px 0;color:var(--ink);font-size:1.12rem;font-family:'Bricolage Grotesque';font-weight:500}
+article ul,article ol{margin:0 0 16px 24px}
+article li{margin-bottom:10px}
+article a{border-bottom:1px solid var(--line)}
+article code{font-family:'JetBrains Mono';font-size:.84em;background:var(--surface2);border:1px solid var(--line-soft);border-radius:6px;padding:2px 8px}
+.kit{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px 28px;margin:24px 0}
+.kit ol{margin-bottom:0}
+.cta{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px;margin:36px 0}
+.cta p{margin-bottom:10px}
+.cta p:last-child{margin-bottom:0}
+.firma{margin:40px 0 0;padding-top:22px;border-top:1px dashed var(--line-soft);color:var(--dim);font-size:.94rem;font-style:italic}
+footer{padding:40px 0 60px;color:var(--dim);font-size:.84rem;border-top:1px solid var(--line-soft);margin-top:50px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;max-width:1080px}
+footer b{color:var(--teal)}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <div class="brand">Salgado<b>IA</b> · Pensamiento Crítico</div>
+  <div class="navlinks">
+    <a href="../">La skill</a>
+    <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico">GitHub</a>
+    <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico/releases">Descargar</a>
+  </div>
+</div></nav>
+
+<header class="post"><div class="wrap">
+  <div class="eyebrow">guía práctica · 11 jun 2026</div>
+  <h1>Cómo desarrollar tu pensamiento crítico en la era de la IA</h1>
+  <p class="standfirst">Los 5 gestos mentales que componen la habilidad, un kit de preguntas
+  para empezar esta tarde con un papel, y el entrenador automático que acabo de publicar
+  gratis para quien quiera constancia.</p>
+  <p class="byline"><b>Luis Salgado</b> — psicólogo de formación, consultor de IA de profesión</p>
+</div></header>
+
+<article><div class="wrap">
+
+  <p>El pensamiento crítico no es un don. Es una habilidad — y como toda habilidad, se
+  entrena, se mantiene y se pierde por desuso. Este artículo es una guía práctica para
+  desarrollarla hoy, en plena era de la IA: qué dice la evidencia, los cinco gestos mentales
+  que la componen, un kit de preguntas de bolsillo, y el entrenador automático para quien
+  quiera constancia.</p>
+  <p>Te aviso de mi sesgo: soy psicólogo de formación y consultor de IA de profesión. Vivo
+  exactamente en el cruce donde esto duele.</p>
+
+  <h2>Tu cerebro en modo ahorro</h2>
+  <p>Nadie diría que el GPS es malo. Pero casi nadie sabría ya cruzar su ciudad sin él. El
+  GPS no te borró la orientación: hizo que dejaras de entrenarla. A eso, en psicología, lo
+  llamamos descarga cognitiva — delegar el esfuerzo mental en una herramienta. No es malo en
+  sí: la lista de la compra la delegas en un papel desde siempre. El problema llega cuando
+  delegas el músculo que necesitabas mantener.</p>
+  <p>A principios de 2025, un investigador suizo llamado Michael Gerlich puso números a esto
+  con 666 participantes: cuanto más delegaban el pensar en la IA, peor puntuaban en
+  pensamiento crítico. Los más jóvenes, los más dependientes y con peores resultados.</p>
+  <p>¿Demuestra eso que la IA atrofia el cerebro? No, y esta parte casi nunca se cuenta bien:
+  es un estudio correlacional. No prueba causa, igual que ver gente en forma en el gimnasio
+  no prueba que el gimnasio funcione — a lo mejor los que ya están en forma van más. Lo
+  honesto es decir: hay un patrón, incomoda, y encaja con lo que cualquier usuario intensivo
+  de IA nota en sí mismo. Suficiente para tomárselo en serio.</p>
+  <p>Y la salida también está medida: cuando la IA se usa con estructura — guiando el proceso
+  de pensar en vez de sustituirlo — el efecto se invierte y la IA ayuda a aprender. Donde
+  más: en la fase de planificar, justo la que todos nos saltamos cuando hay prisa.</p>
+  <blockquote>La IA usada a demanda erosiona el pensamiento crítico. Usada con estructura,
+  lo amplifica.</blockquote>
+  <p>El resto de este artículo es esa estructura, en dos formatos: manual (tú y un papel) y
+  con entrenador (la skill).</p>
+
+  <h2>La habilidad, desnuda: los 5 gestos</h2>
+  <p>Quitémosle el humo a "pensamiento crítico". La capacidad crítica que de verdad se usa —
+  en una decisión de negocio, en un trabajo que hay que defender, frente a un titular o a una
+  respuesta de ChatGPT — se reduce a cinco gestos mentales. Cada uno con su modo de práctica:</p>
+
+  <h3>1. Afina lo borroso</h3>
+  <p>En tu próxima frase importante hay una palabra que no aguanta: "mejor", "pronto",
+  "operativo", "de calidad", "que funcione". Si no puedes decir cómo la medirías, todavía no
+  sabes qué quieres — y todo lo que construyas encima hereda esa niebla.</p>
+  <p><b>Práctica:</b> escribe tu objetivo en una frase y subraya la palabra más blanda.
+  Conviértela en algo comprobable: ¿qué tendría que pasar, que pueda verse desde fuera, para
+  saber que lo conseguiste?</p>
+
+  <h3>2. Caza lo que das por hecho</h3>
+  <p>Debajo de cada plan hay dos o tres cosas que necesitas que sean verdad y que no has
+  comprobado. Son invisibles precisamente porque te convienen.</p>
+  <p><b>Práctica:</b> ante cualquier decisión, completa esta frase tres veces: "esto solo
+  funciona si ___ es verdad". Luego, para cada una: ¿sale de un dato, o de lo que me conviene
+  creer? ¿Lo dicen ellos, o lo has visto medido en un caso como el tuyo?</p>
+
+  <h3>3. Ponte frente a tu propio espejo</h3>
+  <p>Lo que dijiste el lunes y lo que dices el jueves chocan más veces de lo que crees. La
+  incoherencia no es el problema — es la señal: cuando tu conclusión de hoy contradice tu
+  criterio de hace una semana, o ha cambiado algo o está decidiendo la pereza.</p>
+  <p><b>Práctica:</b> apunta tus afirmaciones importantes (objetivos, criterios, datos que
+  admitiste no tener). Antes de decidir, relee la lista. Duele más de lo que parece. Funciona
+  más de lo que parece.</p>
+
+  <h3>4. Invita a quien falta</h3>
+  <p>Toda decisión mirada desde un solo lado parece buena. Y el clásico "ver pros y contras"
+  no sirve si los contras los escribe la misma cabeza enamorada del plan.</p>
+  <p><b>Práctica:</b> ponle cara a la perspectiva ausente. No "¿qué pegas tiene esto?", sino:
+  ¿quién pierde si esto sale como yo quiero, y qué diría? ¿Qué diría mi yo del mes 4, a las
+  23:40, escribiendo el correo número 120 entre dos entregas? Esa persona también vota.</p>
+
+  <h3>5. Dibuja tu mapa y cuéntalo</h3>
+  <p>Si no puedes explicar con tus palabras qué piezas hay y qué empuja a qué, todavía no es
+  tuyo. Y que te lo dibuje otro no sirve: pedir el esquema hecho es como ver a otro hacer
+  pesas por ti — el beneficio estaba en generarlo tú. Esto es de lo más sólido que tiene la
+  psicología del aprendizaje (luego te enseño las fuentes).</p>
+  <p><b>Práctica:</b> al terminar de estudiar o antes de decidir, una servilleta: tres a
+  cinco nodos, flechas con sentido, y la pregunta final — ¿cuál es el nodo del que cuelga
+  todo?</p>
+
+  <h2>El kit de bolsillo</h2>
+  <p>Si solo te llevas una cosa de este artículo, que sean estas seis preguntas. Son la
+  versión de calle de un marco clásico de pensamiento crítico (Paul-Elder), y cubren el 80%
+  de los casos:</p>
+  <div class="kit"><ol>
+    <li>¿Qué quiero decir <i>exactamente</i> con esa palabra?</li>
+    <li>¿Cuánto es "mucho/poco/pronto" en números?</li>
+    <li>¿Qué estoy dando por hecho — y lo he mirado, o me suena de algo?</li>
+    <li>¿Quién lo vería justo al revés, y qué diría?</li>
+    <li>Si ese dato fuera falso, ¿cambiaría mi conclusión? (Si no cambia, es ruido.)</li>
+    <li>¿Cuál es LA pregunta que tengo que responder antes de dar el paso?</li>
+  </ol></div>
+  <p>Nada de esto requiere tecnología. Lo que sí requiere es constancia — y aquí llega el
+  problema real: nadie se hace estas preguntas a sí mismo de forma sostenida. No por falta
+  de capacidad, sino porque el ojo no se ve a sí mismo: tus suposiciones son invisibles
+  precisamente para ti. Hace falta alguien que te las señale en el momento justo y se calle
+  el resto del tiempo.</p>
+  <p>Es decir: hace falta un entrenador.</p>
+
+  <h2>El entrenador automático</h2>
+  <p>Esta semana he publicado uno, gratis y de código abierto. Es una skill para Claude — un
+  paquete de instrucciones que cambia cómo se comporta la IA; no es una app y no hay que
+  programar nada — entrenada para hacer contigo los cinco gestos de arriba, sobre tus temas
+  reales, mientras trabajas con normalidad.</p>
+  <p>Funciona con un contrato de tres reglas que te presenta el primer día:</p>
+  <ol>
+    <li><b>Lo técnico, directo y al momento.</b> Errores, instalaciones, comandos: respuesta
+    completa y sin rodeos. Delegar lo mecánico es el uso correcto de la IA.</li>
+    <li><b>Lo de pensar, te lo entrena — no te lo hace.</b> Te caza suposiciones ("supuesto
+    cazado, van 2" — sí, lleva el marcador), te afina objetivos con menú de opciones, te
+    confronta con tus propias frases aunque las separen veinte minutos.</li>
+    <li><b>Tú tienes mandos.</b> "Dame una pista", "guíame paso a paso", "estoy perdido",
+    "simplifícamelo", "lo necesito ya". Frases normales que entiende y respeta.</li>
+  </ol>
+  <p>Y unos cuantos detalles de diseño que me costaron más que todo lo demás:</p>
+  <ul>
+    <li><b>Una corrección por turno, máximo.</b> Si tu mensaje tiene cuatro fallos, señala el
+    más importante y se guarda el resto. Dos correcciones seguidas son bolígrafo rojo, y el
+    bolígrafo rojo mata cualquier conversación. La gente no cambia por avalancha de feedback
+    — eso lo aprendí como psicólogo mucho antes que como consultor.</li>
+    <li><b>El pagaré.</b> ¿Urgencia real? Respuesta directa, bien hecha, sin sermón — y una
+    deuda anotada: la próxima sesión, antes de empezar nada nuevo, el porqué me lo explicas
+    tú. Máximo tres deudas vivas. La pedagogía no desaparece: se aplaza.</li>
+    <li><b>Con menores, el pagaré no existe.</b> Si insistir tres veces desbloqueara la
+    respuesta, el sistema sería papel mojado. Con adolescentes la insistencia desbloquea otra
+    cosa: argumentos de interés propio ("tu trabajo va a sonar igual que el de tus otros 30
+    compañeros, y tu profe lo huele") y, si persiste, una conversación con el docente.</li>
+    <li><b>Sabe decir "para esto no soy yo".</b> ¿Memorizar 40 capitales para el jueves?
+    Flashcards y repaso espaciado — te lo dice ella. Una herramienta que sabe cuándo no
+    usarse es más fiable que una que se vende para todo.</li>
+    <li><b>Es un andamio que se retira.</b> Tres niveles: N1 guiado (ella conduce), N2
+    auditado (conduces tú; interviene si un estándar falla), N3 adversarial (tú aplicas el
+    método solo; ella hace de abogado del diablo al final). Si llevas muchas sesiones en N1,
+    ella misma te empuja a subir. Su objetivo declarado es que la necesites cada vez menos.</li>
+  </ul>
+
+  <h2>Cómo instalarla (2 minutos)</h2>
+  <p><b>En Claude.ai o la app de escritorio:</b></p>
+  <ol>
+    <li>Descarga <code>salgadoia-pensamiento-critico.skill</code> desde
+    <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico/releases">Releases</a>.</li>
+    <li>Ajustes → Capacidades → Skills → subir el archivo.</li>
+    <li>En cualquier conversación: <i>"Activa pensamiento crítico"</i>.</li>
+  </ol>
+  <p><b>En Claude Code (terminal/IDE):</b> clona el repo en tu carpeta de skills
+  (<code>~/.claude/skills/</code>) y reinicia la sesión. Comandos exactos en el
+  <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico#instalación">README</a>.</p>
+  <p><b>Si eres docente:</b> el paquete trae el despliegue de aula completo — el discurso de
+  40 segundos para presentar el contrato a la clase, la guía del alumno en una página
+  imprimible y un playbook de averías ("la IA no me contesta, solo pregunta" tiene arreglo de
+  10 segundos). Preparación realista: 2-3 horas. El informe de proceso habla de cómo trabajó
+  cada alumno (qué cazó solo, dónde pidió pista), nunca de contenidos personales:
+  trazabilidad pedagógica sin vigilancia.</p>
+
+  <h2>La evidencia, sin maquillar</h2>
+  <p>Prometí rigor, así que aquí está la cocina — cada pieza de la guía y del diseño sale de
+  algún sitio:</p>
+  <ul>
+    <li><b>El riesgo del uso a demanda.</b> Gerlich, M. (2025), <i>Societies</i> 15(1), 6:
+    666 participantes, correlación negativa entre uso frecuente de IA y pensamiento crítico,
+    mediada por descarga cognitiva (<a href="https://www.mdpi.com/2075-4698/15/1/6">estudio</a>).
+    Correlacional, no causal — y aun así, la mejor señal de alarma disponible.</li>
+    <li><b>El valor del uso estructurado.</b> Un meta-análisis de 32 estudios (Achuthan,
+    2025, <i>Frontiers in Education</i>,
+    <a href="https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1738751/full">aquí</a>)
+    apunta a que las intervenciones con IA ayudan al aprendizaje autorregulado, con el efecto
+    más consistente en la fase de planificación — por eso el gesto 1 (afinar el objetivo) va
+    primero. (Honestidad estadística: estudios muy heterogéneos; lo robusto es el patrón por
+    fases, no la magnitud global.)</li>
+    <li><b>Por qué el mapa lo haces tú (gesto 5).</b> Décadas de evidencia sobre aprendizaje
+    generativo (Fiorella &amp; Mayer, 2015/2016,
+    <a href="https://link.springer.com/article/10.1007/s10648-015-9348-9">resumen</a>): el
+    beneficio está en generar tú la reorganización del conocimiento. Con un matiz que la
+    skill incorpora: si generar te desborda, el material dado puede rendir más (Stull &amp;
+    Mayer, 2007) — por eso te anda el camino con preguntas, pero no lo camina por ti.</li>
+    <li><b>Por qué una corrección por turno.</b> El marco ICAP (Chi &amp; Wylie, 2014):
+    aprender en modo constructivo e interactivo supera al consumo pasivo. Lo usamos como
+    heurística, no como ley — la propia literatura le ha puesto peros
+    (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10652002/">Thurn et al., 2023</a>).</li>
+    <li><b>El kit de preguntas</b> es la versión de calle de los estándares intelectuales de
+    Paul-Elder (claridad, precisión, relevancia, amplitud, lógica, significancia), un marco
+    clásico de la enseñanza del pensamiento crítico.</li>
+    <li><b>El paraguas institucional.</b> El marco de alfabetización en IA de la Comisión
+    Europea y la OCDE (<a href="https://ailiteracyframework.org/">AILit Framework</a>,
+    borrador de mayo 2025) y el Art. 4 del Reglamento europeo de IA, que desde el 2 de
+    febrero de 2025 obliga a las empresas a garantizar la alfabetización en IA de sus equipos
+    (<a href="https://artificialintelligenceact.eu/article/4/">texto legal</a>). Lo vivo a
+    diario como consultor: la alfabetización que pide la ley no es "saber usar ChatGPT" — es
+    tener el criterio para saber cuándo fiarte y cuándo no. Ese criterio es esta habilidad.</li>
+  </ul>
+  <p>La versión completa, con calibración de cada afirmación y su contranarrativa, está en
+  <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico/blob/main/references/fundamentos.md">references/fundamentos.md</a>
+  del repo. Incluida la parte que no me conviene contar — porque así se hace esto.</p>
+
+  <h2>Preguntas que me han hecho ya</h2>
+  <p><b>¿Puedo desarrollar la habilidad sin la skill?</b> Sí — los cinco gestos y el kit de
+  preguntas de arriba son tuyos, con un papel basta. La skill resuelve lo que el papel no:
+  la constancia, y el punto ciego de que tus suposiciones son invisibles para ti.</p>
+  <p><b>¿La skill es un ChatGPT capado?</b> No: es una IA con otro contrato. Lo técnico lo
+  resuelve más rápido que un chatbot normal (sin preguntitas), y lo conceptual lo entrena en
+  vez de escupirlo. Capada estaría si no pudiera; esta no quiere — y te explica por qué.</p>
+  <p><b>¿No es más lento que pedir la respuesta?</b> Sí, igual que el gimnasio es más lento
+  que el ascensor. Merece la pena con conocimiento que vas a volver a usar y decisiones que
+  tendrás que defender. Para lo demás, ella misma te manda a una IA normal.</p>
+  <p><b>¿Funciona con menores sin supervisión?</b> Está diseñada para aula CON docente (la
+  guía es la mitad del producto). Las protecciones existen, pero a la figura del adulto no la
+  sustituye ninguna skill.</p>
+  <p><b>¿Por qué la regalas?</b> Porque mi negocio no es vender skills: es que la
+  conversación sobre IA en español suba de nivel. Si esta herramienta te sirve, ya sabes
+  dónde encontrarme para lo demás.</p>
+
+  <h2>Empieza hoy</h2>
+  <div class="cta">
+    <p><b>Sin instalar nada:</b> elige una decisión abierta que tengas ahora mismo y pásale
+    los cinco gestos. Quince minutos, un papel. Donde duela, ahí está el músculo flojo.</p>
+    <p><b>Con entrenador:</b><br>
+    → <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico">Repositorio en GitHub</a> (gratis, MIT)<br>
+    → <a href="../">Cómo funciona por dentro, con demostrador interactivo</a></p>
+  </div>
+  <p>Estoy recopilando casos reales — gente que la use para decisiones, docentes que la
+  desplieguen en aula — para iterar la siguiente versión. Lo que mejor me viene no son los
+  aplausos: es saber dónde se rompe.</p>
+
+  <p class="firma">Luis Salgado — psicólogo de formación, consultor de IA en activo
+  (NorteIA · SalgadoIA). Escribo sobre IA y mente humana en la newsletter "IA con Cabeza".</p>
+
+</div></article>
+
+<footer><div class="wrap">
+  <div><b>SalgadoIA</b> · Pensamiento Crítico · 2026</div>
+  <div><a href="../">La skill</a> · <a href="https://github.com/Luispitik/salgadoia-pensamiento-critico">GitHub</a></div>
+</div></footer>
+
+</body>
+</html>
